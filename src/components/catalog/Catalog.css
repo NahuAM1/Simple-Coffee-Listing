@@ -1,0 +1,94 @@
+@media (max-width: 1920px) {
+    .catalog-container {
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        top: 150px;
+        height: 880px;
+        width: 1080px;
+        border-radius: 10px;
+        background-color: #1B1D1F;
+
+        .vector-img {
+            position: absolute;
+            right: 285px;
+            top: 30px;
+        }
+
+        .catalog-header {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            top: 80px;
+            text-align: center;
+
+            h1 {
+                margin: 0;
+                padding: 10px;
+            }
+
+
+            p {
+                color: #6F757C;
+                margin: 0;
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            button {
+                margin: 10px;
+                font-size: 14px;
+                height: 35px;
+                width: 100px;
+                background-color: transparent;
+                border: none;
+            }
+
+            button:focus,
+            button:hover {
+                border-radius: 8px;
+                border: none;
+                background-color: #6F757C;
+            }
+        }
+
+        .coffees-container {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            gap: 30px;
+            width: 1000px;
+            top: 300px;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .catalog-container {
+        width: 395px;
+        height: 2020px;
+
+        .vector-img {
+            position: absolute;
+            left: 200px;
+            top: 30px;
+        }
+
+        .catalog-header {
+            width: 300px;
+        }
+
+        .coffees-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            top: 320px;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.card-container {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+
+    .coffee-img {
+        position: absolute;
+        height: 160px;
+        width: 250px;
+        border-radius: 15px;
+
+    }
+
+    .popularity {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 60px;
+        border-radius: 20px;
+        top: 8px;
+        left: 8px;
+        color: #1B1D1F;
+        background-color: #F6C768;
+        font-size: 10px;
+    }
+
+    .coffee-type {
+        position: absolute;
+        top: 160px;
+    }
+
+    .stars-container {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 192px;
+        gap: 2px;
+
+        .star {
+            position: relative;
+        }
+
+        .stars {
+            font-size: 14px;
+        }
+
+        .votes {
+            font-size: 14px;
+            color: #6F757C;
+        }
+    }
+
+    .price {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25px;
+        width: 45px;
+        top: 170px;
+        right: 0px;
+        border-radius: 5px;
+        background-color: #BEE3CC;
+        color: #1B1D1F;
+        font-size: 12px;
+    }
+
+    .sold-out {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        top: 195px;
+        right: 0px;
+        border-radius: 5px;
+        color: #ED735D;
+        font-size: 12px;
+    }
+}
